@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>cmpny_add_vacny_notif</title>
+<style type="text/css">
+<!--
+#Layer1 {
+	position:absolute;
+	left:358px;
+	top:44px;
+	width:391px;
+	height:30px;
+	z-index:1;
+}
+-->
+</style>
+</head>
+
+<body>
+
+</div>
+<form id="form1" name="form1" method="post" action="/ConsumerUpdate/">
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <table width="402" height="371" border="1" align="center">
+ <tr>
+
+
+      <input type="hidden" name="cno" id="dd"value="{{ data['consumer_no'] }}" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">Name</th>
+      <td><label for="d"></label>
+      <input type="text" name="name" id="name"value="{{ data['cname'] }}" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">Address</th>
+      <td><label for="d"></label>
+      <input type="text" name="add" id="d"value="{{ data['address'] }}" required/></td>
+    </tr>
+    <tr>
+      <th scope="row">DOB</th>
+      <td><label for="n"></label>
+      <input type="text" name="dob" id="pho"value="{{ data['dob'] }}" required/></td>
+    </tr>
+      <tr>
+      <th scope="row">Pincode</th>
+      <td><label for="n"></label>
+      <input type="text" name="pin" value="{{ data['pincode'] }}" required/></td>
+    </tr>
+      <tr>
+      <th scope="row">area</th>
+      <td><label for="n"></label>
+      <input type="text" name="area" id="no"value="{{ data['area'] }}" required/></td>
+    </tr>
+	<tr>
+      <th scope="row">city</th>
+      <td><label for="n"></label>
+      <input type="text" name="city" id="ngg"value="{{ data['city'] }}" required/></td>
+    </tr>
+	<tr>
+      <th scope="row">phone</th>
+      <td><label for="n"></label>
+      <input type="text" name="phone" id="nsd"value="{{ data['phone'] }}" required/></td>
+    </tr>
+	<tr>
+      <th scope="row">mobile</th>
+      <td><label for="n"></label>
+      <input type="text" name="mob" id="nsdsa"value="{{ data['mobile'] }}" required/></td>
+    </tr>
+	<tr>
+      <th scope="row">email</th>
+      <td><label for="n"></label>
+      <input type="text" name="mail" id="nsds"value="{{ data['email'] }}" required/></td>
+    </tr>
+	<tr>
+      <th scope="row">password</th>
+      <td><label for="n"></label>
+      <input type="text" name="pas" id="n"value="{{ data['password'] }}" required/></td>
+    </tr>
+    <tr>
+
+      <th colspan="2" scope="row"><input type="submit" name="Update" id="Update" value="Update" /></th>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+</form>
+</body>
+</html>

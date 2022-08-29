@@ -1,0 +1,40 @@
+<body>
+<p>&nbsp;</p>
+<table width="880" height="127" border="1" align="center">
+  <tr>
+    <th width="238" scope="col">Consumer NO</th>
+	<th width="238" scope="col">Name</th>
+    <th width="192" scope="col">Address</th>
+      <th width="192" scope="col">DOB</th>
+      <th width="192" scope="col">Pincode</th>
+	  <th width="238" scope="col">Area</th>
+      <th width="192" scope="col">City</th>
+      <th width="192" scope="col">Phone</th>
+    <th width="192" scope="col">Mobile</th>
+      <th width="192" scope="col">Mail</th>
+      <th width="192" scope="col">Password</th>
+  </tr>
+
+{% for row in data %}
+
+  <tr>
+    <td height="87"><div align="center">{{ row['consumer_no'] }}</div></td>
+	<td><div align="center">{{ row['cname'] }}</div></td>
+    <td><div align="center">{{ row['address'] }}</div></td>
+    <td><div align="center">{{ row['dob'] }}</div></td>
+      <td><div align="center">{{ row['pincode'] }}</div></td>
+      <td><div align="center">{{ row['area'] }}</div></td>
+      <td><div align="center">{{ row['city'] }}</div></td>
+      <td><div align="center">{{ row['phone'] }}</div></td>
+      <td><div align="center">{{ row['mobile'] }}</div></td>
+      <td><div align="center">{{ row['email'] }}</div></td>
+      <td><div align="center">{{ row['password'] }}</div></td>
+	<td width="75"><div align="center" ><a href="/Consumer_edit/{{  row['consumer_no'] }}/{{ row['cname'] }}" style="color:darkmagenta;">edit</a></div>
+    <td width="80"><div align="center" ><a href="/Consumer_del/{{  row['consumer_no'] }}/{{ row['cname'] }}" style="color:darkmagenta;">delete</a></div>
+  </tr>
+
+{% endfor %}
+
+</table>
+</body>
+</html>

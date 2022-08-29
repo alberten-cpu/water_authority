@@ -1,0 +1,32 @@
+<body>
+<p>&nbsp;</p>
+<table width="880" height="127" border="1" align="center">
+  <tr>
+    <th width="238" scope="col">id</th>
+	<th width="238" scope="col">Name</th>
+    <th width="192" scope="col">Address</th>
+      <th width="192" scope="col">Phone</th>
+      <th width="192" scope="col">Designation</th>
+	  <th width="238" scope="col">Branch Id</th>
+      <th width="192" scope="col">Password</th>
+  </tr>
+
+{% for row in data %}
+
+  <tr>
+    <td height="87"><div align="center">{{ row['emp_id'] }}</div></td>
+	<td><div align="center">{{ row['name'] }}</div></td>
+    <td><div align="center">{{ row['address'] }}</div></td>
+    <td><div align="center">{{ row['contact'] }}</div></td>
+      <td><div align="center">{{ row['designation'] }}</div></td>
+      <td><div align="center">{{ row['branch_id'] }}</div></td>
+      <td><div align="center">{{ row['password'] }}</div></td>
+	<td width="75"><div align="center" ><a href="/EditEmp/{{  row['emp_id'] }}" style="color:darkmagenta;">edit</a></div>
+    <td width="80"><div align="center" ><a href="/emp_del/{{ row['emp_id'] }}/{{ row['name'] }}" style="color:darkmagenta;">delete</a></div>
+  </tr>
+
+{% endfor %}
+
+</table>
+</body>
+</html>

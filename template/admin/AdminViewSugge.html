@@ -1,0 +1,24 @@
+<body>
+<table width="1015" height="189" border="1" align="center">
+  <tr>
+    <th width="290" scope="col">Consumer NO</th>
+    <th width="234" scope="col">Suggetion</th>
+	<th width="234" scope="col">Suggetion Date</th>
+	<th>Reply
+  </tr>
+
+{% for row in data %}
+
+  <tr>
+    <td height="149"><div align="center">{{ row['cons_no'] }}</div></td>
+    <td><div align="center">{{ row['suggestion'] }}</div></td>
+	<td><div align="center">{{ row['suggestion_date'] }}</div></td>
+	<td width="90"><div align="center" ><a href="/AdminEditSg/{{  row['suggestion_id'] }}" style="color:darkmagenta;">Update</a></div>
+
+  </tr>
+
+{% endfor %}
+
+</table>
+</body>
+</html>

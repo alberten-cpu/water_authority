@@ -1,0 +1,38 @@
+<body>
+<p>&nbsp;</p>
+<table width="880" height="127" border="1" align="center">
+  <tr>
+    <th width="238" scope="col">consumer_no</th>
+	<th width="238" scope="col">category</th>
+    <th width="192" scope="col">Complaint</th>
+      <th width="192" scope="col">Name</th>
+      <th width="192" scope="col">Addres</th>
+	  <th width="238" scope="col">Mobile</th>
+      <th width="192" scope="col">Area</th>
+      <th width="192" scope="col">Pincode</th>
+      <th width="192" scope="col">Date</th>
+      <th width="192" scope="col">reply</th>
+      <th width="192" scope="col">status</th>
+  </tr>
+
+{% for row in data %}
+
+  <tr>
+    <td height="87"><div align="center">{{ row['consumer_no'] }}</div></td>
+	<td><div align="center">{{ row['category'] }}</div></td>
+    <td><div align="center">{{ row['description'] }}</div></td>
+    <td><div align="center">{{ row['person'] }}</div></td>
+      <td><div align="center">{{ row['addres'] }}</div></td>
+      <td><div align="center">{{ row['mobile'] }}</div></td>
+      <td><div align="center">{{ row['areas'] }}</div></td>
+      <td><div align="center">{{ row['pincode'] }}</div></td>
+      <td><div align="center">{{ row['dates'] }}</div></td>
+      <td><div align="center">{{ row['reply'] }}</div></td>
+       <td><div align="center">{{ row['status'] }}</div></td>
+  </tr>
+
+{% endfor %}
+
+</table>
+</body>
+</html>

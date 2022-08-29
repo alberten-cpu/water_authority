@@ -1,0 +1,50 @@
+<style type="text/css">
+<!--
+#Layer1 {
+	position:absolute;
+	left:241px;
+	top:210px;
+	width:585px;
+	height:298px;
+	z-index:1;
+}
+-->
+</style>
+<body>
+<div id="Layer1">
+    <form id="form1" name="form1" method="post" action="/UpdateUnitPrice/">
+  <table width="533" border="0">
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><div align="center">Unit Price </div></td>
+    </tr>
+    <tr>
+      <td><div align="center"></div></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+        {% for row in data %}
+      <td><div align="center">
+        <input type="text" name="unpr" id="pin2"value="{{ row['h_price'] }}" required/>
+          <input type="hidden" name="uid" id="pin6"value="{{ row['unit_price_id'] }}" required/>
+      </div></td>
+        {% endfor %}    </tr>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><div align="center">
+        <input type="submit" name="Update2" id="Update2" value="Update" />
+      </div></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
