@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8190c463-172a-4d8f-bc03-14ade1876fad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y1DQpNTvlxKsgL6PwyT7TanLHK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\water\static" />
+      <recent name="D:\python\water\template" />
+      <recent name="D:\python\water\template\branch" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\water\template\admin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.water">
+    <configuration name="AdminViewBranchPin.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/water/template/admin/AdminViewBranchPin.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="AdminViewBranch.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/water/template/admin/AdminViewBranch.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/water/template/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="water" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="water" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/water.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.water" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8190c463-172a-4d8f-bc03-14ade1876fad" name="Default Changelist" comment="" />
+      <created>1582101193786</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582101193786</updated>
+      <workItem from="1582101217044" duration="10961000" />
+      <workItem from="1582113692612" duration="2397000" />
+      <workItem from="1582173490288" duration="60000" />
+      <workItem from="1582173778794" duration="4067000" />
+      <workItem from="1582178174590" duration="19374000" />
+      <workItem from="1582537337159" duration="5680000" />
+      <workItem from="1582602041097" duration="20462000" />
+      <workItem from="1582690669050" duration="1308000" />
+      <workItem from="1582715030665" duration="6699000" />
+      <workItem from="1582862678657" duration="7297000" />
+      <workItem from="1582872209870" duration="3988000" />
+      <workItem from="1582969648613" duration="368000" />
+      <workItem from="1582973898669" duration="1184000" />
+      <workItem from="1583725724836" duration="2378000" />
+      <workItem from="1583812136479" duration="2798000" />
+      <workItem from="1583910445134" duration="2103000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582863715358">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582863715358" />
+    <state x="413" y="174" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584012247823">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1584012247823" />
+    <state x="402" y="0" key="#water" timestamp="1583916602325">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="402" y="0" key="#water/0.0.1366.728@0.0.1366.728" timestamp="1583916602325" />
+    <state width="242" height="189" key="DatabaseViewActions_Filter" timestamp="1582863368523">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="242" height="189" key="DatabaseViewActions_Filter/0.0.1366.728@0.0.1366.728" timestamp="1582863368523" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1584004771966">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584004771966" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1584012264957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584012264957" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1584012264957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584012264957" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1584012264957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584012264957" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1584012264957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584012264957" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1582863725285">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728@0.0.1366.728" timestamp="1582863725285" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1583916668583">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583916668583" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1583916363951">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583916363951" />
+  </component>
+</project>

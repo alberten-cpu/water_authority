@@ -1,0 +1,25 @@
+<body>
+<p>&nbsp;</p>
+<table width="880" height="127" border="1" align="center">
+  <tr>
+    <th width="238" scope="col">Emp Id</th>
+    <th width="192" scope="col">Pincode</th>
+    <th width="192" scope="col">Branch Id</th>
+
+  </tr>
+
+{% for row in data %}
+
+  <tr>
+    <td height="87"><div align="center">{{ row['emp_id'] }}</div></td>
+    <td><div align="center">{{ row['pincode'] }}</div></td>
+    <td><div align="center">{{ row['branch_id'] }}</div></td>
+	<td width="75"><div align="center" ><a href="/EditEmpPin/{{  row['emp_id'] }}" style="color:darkmagenta;">assign pin</a></div>
+
+  </tr>
+
+{% endfor %}
+
+</table>
+</body>
+</html>

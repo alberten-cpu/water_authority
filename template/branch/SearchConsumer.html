@@ -1,0 +1,83 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>admin_view_result</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="/searchconsumer">
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+
+  <table width="398" height="54" class="table table_striped"  align="center">
+    <tr align="center">
+
+      <td><strong>Company</strong></td>
+      <td><label for="company"></label>
+        <select name="company_id" id="company" class="form-control">
+        <option> Select </option>
+            {% for row in data %}
+        <option value="{{ row['consumer_no'] }}" >{{ row['cname'] }} </option>
+            {% endfor %}
+      </select></td>
+        <td><input type="submit" value="search" class="btn btn-primary"/> </td>
+    </tr>
+  </table>
+</form>
+
+<p>&nbsp;</p>
+
+{% if data1 %}
+
+<div align="center">
+
+
+      <table width="1084" height="165" border="1">
+       <tr>
+    <th width="238" scope="col">Consumer NO</th>
+	<th width="238" scope="col">Name</th>
+    <th width="192" scope="col">Address</th>
+      <th width="192" scope="col">DOB</th>
+      <th width="192" scope="col">Pincode</th>
+	  <th width="238" scope="col">Area</th>
+      <th width="192" scope="col">City</th>
+      <th width="192" scope="col">Phone</th>
+    <th width="192" scope="col">Mobile</th>
+      <th width="192" scope="col">Mail</th>
+      <th width="192" scope="col">Password</th>
+  </tr>
+
+          {% for row in data1 %}
+  <tr>
+    <tr>
+    <td height="87"><div align="center">{{ row['consumer_no'] }}</div></td>
+	<td><div align="center">{{ row['cname'] }}</div></td>
+    <td><div align="center">{{ row['address'] }}</div></td>
+    <td><div align="center">{{ row['dob'] }}</div></td>
+      <td><div align="center">{{ row['pincode'] }}</div></td>
+      <td><div align="center">{{ row['area'] }}</div></td>
+      <td><div align="center">{{ row['city'] }}</div></td>
+      <td><div align="center">{{ row['phone'] }}</div></td>
+      <td><div align="center">{{ row['mobile'] }}</div></td>
+      <td><div align="center">{{ row['email'] }}</div></td>
+      <td><div align="center">{{ row['password'] }}</div></td>
+
+
+
+
+
+  </tr>
+
+  {%endfor%}
+
+
+  </table>
+</div>
+
+{% endif %}
+
+<p>&nbsp;</p>
+</body>
+</html>

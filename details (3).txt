@@ -1,0 +1,47 @@
+admin
+-----
+
+add branch /
+view all branch /
+edit/ update branch details /
+view suggestions /
+reply suggestions /
+assign pincode to branch /
+view all assigned pincode /
+update assigned pincode /
+add unit price /
+update unit price /
+
+branch
+------
+Login /
+Register employee /
+View employee /
+View all branch complaints
+Consumer registration /
+Search consumer details /
+Update consumer details /
+Assign pincode to employee /
+View/Edit Assign pincode /
+
+employee
+--------
+login /
+view all complaints /
+reply complaint status /
+
+consumer(android)
+--------
+login /
+send complaint /
+view complaint status /
+send suggestion /
+View Suggestion Reply /
+view total load  /
+view bill details /
+set limit
+view limit
+
+
+
+
